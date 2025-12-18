@@ -6,7 +6,7 @@ public class Member {
 	private final String name;		//생성 이후 불변
 	private String email;			//상태 변경 가능
 	
-	Member(int id, String name, String email) {	//이 생성자의 역할은?
+	Member(int id, String name, String email) {	//id, name, email을 매개변수로 받겠다. 이게 없으면 돌아가지 않도록 미리 생성자로 고정
 		this.id = id;
 		this.name = name;
 		this.email = email;
